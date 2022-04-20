@@ -1,4 +1,5 @@
 class ApplicationController < ActionController::Base
+=begin
   def homepage
     render({  :template => "game_templates/rules.html.erb"  })
   end
@@ -43,6 +44,6 @@ class ApplicationController < ActionController::Base
     end
     
     render({  :template => "game_templates/user_scissors.html.erb  "})
-  end
+=end
 
 end
